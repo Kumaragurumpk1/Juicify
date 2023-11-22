@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css" type="text/css" /> -->
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="logo">Juicify</h1>
+      <img id="logo1" src="logo1 (2).png" />
+      <a href="home.html">
+        <button id="button">Home</button>
+      </a>
+
+      <button id="button" type="button" onclick='document.location="form.html"'>
+        Form
+      </button>
+
+      <!-- <button id="button" type="button" onclick="homenn.html">Offer</button> -->
+      <!-- <button id="button" type="button" onclick="home.html">Summer</button> -->
+      <button
+        id="button"
+        type="button"
+        onclick='document.location="branches.html"'
+      >
+        branches
+      </button>
+      <button
+        id="button"
+        type="button"
+        onclick='document.location="about.html"'
+      >
+        About
+      </button>
+    </header>
+    <!-- <div id="images">
+    <h1 id="title">It's Go Time! Drink Your Fruit.</h1>
+    <div class="img2">
+      <a href="orange1.jpg" target="_blank"></a>
+      <a href="apple.jpg"  target="_blank"></a>
+      <a href="pineapple.jpg" target="_blank" ></a><button></button></a>
+    </div>
+    <div id="img2"></div>
+      <a href="watermelon.jpg" target="_blank"></a>
+      <a href="banana.jfif"  target="_blank"></a>
+      <a href="papaya.jfif" target="_blank"></a>
+      </div> -->
+    <h4 id="quotes3">
+      Fresh and Healthy | Even more juicier | 100% pure fruits.
+    </h4>
+    <div id="banner">
+      <div1 id="menu">
+        <img
+          id="freshjuice"
+          src="sprite.jpg"
+          alt="freshjuice"
+          height="250px"
+          width="400px"
+          onclick='document.location="freshjuice.html"'
+          target="_blank"
+        />
+      </div1>
+      <div2 id="menu">
+        <img
+          src="coc.jfif"
+          alt="cooldrinks"
+          height="250px"
+          width="400px"
+          onclick='document.location="cooldrinks.html"'
+          target="_blank"
+        />
+      </div2>
+      <div3 id="menu">
+        <img
+          id="icecream"
+          src="fanta.webp"
+          alt="icecream"
+          height="250px"
+          width="400px"
+          onclick="icecream.html"
+          target="_blank"
+        />
+      </div3>
+    </div>
+    <div id="menu1">
+      <div1 id="q" onclick='document.location="freshjuice.html"'>SPRITE</div1>
+      <div2 id="q" onclick='document.location="cooldrinks.html"'
+        >Coca-Cola</div2
+      >
+      <div3 id="q" onclick='document.location="icecream.html"'>FANTA</div3>
+    </div>
+    <br />
+    <br />
+    <div id="banner">
+      <div1 id="menu2">
+        <img
+          id="falooda"
+          src="bovonto.jfif"
+          alt="falooda"
+          height="250px"
+          width="400px"
+          onclick='document.location="falooda.html"'
+          target="_blank"
+        />
+      </div1>
+      <div2 id="menu2">
+        <img
+          id="lassi"
+          src="maaza.webp"
+          alt="lassi"
+          height="250px"
+          width="400px"
+          onclick='document.location="lassi.html"'
+          target="_blank"
+        />
+      </div2>
+      <div3 id="menu2">
+        <img
+          id="milkshake"
+          src="mojito.jfif"
+          alt="milkshake"
+          height="250px"
+          width="400px"
+          onclick='document.location="milkshake.html"'
+          target="_blank"
+        />
+      </div3>
+    </div>
+    <div id="menu1">
+      <div1
+        id="q"
+        target="_blank"
+        onclick='document.location="falooda.html"'
+        target="_blank"
+        >BOVONTO</div1
+      >
+      <div2 id="q" onclick='document.location="lassi.html"'>MAAZA</div2>
+      <div3 id="q" onclick='document.location="milkshake.html"'>MOJITO</div3>
+    </div>
+    <style>
+      #quotes3 {
+        font-family: sans-serif;
+        font-weight: 100;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        /* background-image: image(orange1.jpg);
+        background-color: grey; */
+      }
+      /* * {
+        margin: 10;
+        padding: 10;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      } */
+
+      header {
+        background-color: rgb(232, 47, 47);
+        justify-content: space-evenly;
+        display: flex;
+        align-items: center;
+        padding: 10px 30px;
+      }
+      /* #navbar a {
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: normal; */
+
+      #logo {
+        left: 50px;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        right: 1120px;
+        font-size: 23px;
+        font-weight: 1400;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      #logo1 {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        left: 0%;
+      }
+      body {
+        background-color: rgb(50, 48, 48);
+      }
+      #banner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        top: 50px;
+        padding: 25px 70px;
+        margin: 30px;
+        border: 20px solid= "black";
+        right: 40px;
+      }
+      #button {
+        background-color: rgb(50, 48, 48);
+        color: aliceblue;
+        border: 0px;
+        text-align: center;
+        border-radius: 0px;
+        font-weight: 500px;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 18px;
+      }
+      #button button:hover {
+        background-color: rgb(207, 113, 59);
+        color: rgb(171, 198, 221);
+        transition: all 0.4s ease-in-out;
+      }
+      #menu {
+        border: solid 6px rgb(red, green, blue);
+        color: dimgray;
+        width: auto;
+      }
+      #quotes {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-weight: 300;
+        color: aliceblue;
+        text-align: center;
+        justify-content: center;
+        padding-top: 40px;
+      }
+      #menu1 {
+        color: aliceblue;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        font-size: medium;
+        font-weight: 200;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      #menu1 q {
+        padding-left: 20px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      #quotes1 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-weight: 100;
+        color: aliceblue;
+        text-align: center;
+        justify-content: center;
+        padding-top: 0px;
+      }
+      #quotes3 {
+        font-family: sans-serif;
+        font-weight: 100;
+        color: aliceblue;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+      #myvideo {
+        height: 10%;
+        width: 10%;
+        position: center;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
+      #branches {
+        position: fixed;
+        align-items: center;
+        color: aliceblue;
+        font-weight: 800;
+        font-family: monospace;
+        font-size: larger;
+      }
+      #myvideo1 {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        max-width: 100%;
+        height: auto;
+      }
+      /* #orange{
+  margin: 0;
+  /* padding: 20px 100px;
+  background-image:url(orange.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  position: absolute;
+} */
+
+      #orange {
+        height: 90vh;
+        width: 100%;
+        object-fit: cover;
+      }
+
+      .about {
+        margin: 0;
+        color: rgb(255, 255, 255);
+        padding: 20px 110;
+        position: fixed;
+        left: 3100px;
+        bottom: 40px;
+        background-color: aliceblue;
+      }
+      /* #juicyfy{
+  position:absolute;
+  top:40;
+  color:rgb(255, 255, 255)
+  padding:20px;
+  
+}
+.about2{
+    position:absolute;
+  top:40;
+  color:crimson
+  padding:20px;
+} */
+
+      #places {
+        position: absolute;
+        top: 80%;
+      }
+      #places ul li {
+        display: inline-block;
+        margin-left: 13rem;
+        color: #ffffff;
+        font-size: 1.5rem;
+      }
+      .form-style-1 {
+        margin: 10px auto;
+        max-width: 400px;
+        padding: 20px 12px 10px 20px;
+        font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      }
+      .form-style-1 li {
+        padding: 0;
+        display: block;
+        list-style: none;
+        margin: 10px 0 0 0;
+      }
+      .form-style-1 label {
+        margin: 0 0 3px 0;
+        padding: 0px;
+        display: block;
+        font-weight: bold;
+      }
+      .form-style-1 input[type="text"],
+      .form-style-1 input[type="date"],
+      .form-style-1 input[type="datetime"],
+      .form-style-1 input[type="number"],
+      .form-style-1 input[type="search"],
+      .form-style-1 input[type="time"],
+      .form-style-1 input[type="url"],
+      .form-style-1 input[type="email"],
+      textarea,
+      select {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        border: 1px solid #bebebe;
+        padding: 7px;
+        margin: 0px;
+        /*   -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out; */
+        outline: none;
+      }
+      .form-style-1 input[type="text"]:focus,
+      .form-style-1 input[type="date"]:focus,
+      .form-style-1 input[type="datetime"]:focus,
+      .form-style-1 input[type="number"]:focus,
+      .form-style-1 input[type="search"]:focus,
+      .form-style-1 input[type="time"]:focus,
+      .form-style-1 input[type="url"]:focus,
+      .form-style-1 input[type="email"]:focus,
+      .form-style-1 textarea:focus,
+      .form-style-1 select:focus {
+        -moz-box-shadow: 0 0 8px #88d5e9;
+        -webkit-box-shadow: 0 0 8px #88d5e9;
+        box-shadow: 0 0 8px #88d5e9;
+        border: 1px solid #88d5e9;
+      }
+      .form-style-1 .field-divided {
+        width: 49%;
+      }
+
+      .form-style-1 .field-long {
+        width: 100%;
+      }
+      .form-style-1 .field-select {
+        width: 100%;
+      }
+      .form-style-1 .field-textarea {
+        height: 100px;
+      }
+      .form-style-1 input[type="submit"],
+      .form-style-1 input[type="button"] {
+        background: #4b99ad;
+        padding: 8px 15px 8px 15px;
+        border: none;
+        color: #fff;
+      }
+      .form-style-1 input[type="submit"]:hover,
+      .form-style-1 input[type="button"]:hover {
+        background: #f40000;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+      }
+      .form-style-1 .required {
+        color: red;
+      }
+      .img2 {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+      }
+      #images {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+      }
+      #place_image {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+      }
+    </style>
+  </body>
+</html>
